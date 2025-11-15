@@ -1,0 +1,8 @@
+{
+    "manufacturer": "turkeyboards",
+    "maintainer": "turkeyboards",
+    "url": "https://github.com/TurkeyBoards/",
+    "usb": {
+        "vid": "0xFEED"
+    },
+}

@@ -1,7 +1,7 @@
 {
     "manufacturer": "turkeyboards",
     "maintainer": "turkeyboards",
-    "url": "https://github.com/TurkeyBoards/swoop_kit",
+    "url": "https://github.com/TurkeyBoards/sweep_kit",
     "usb": {
         "vid": "0xFEED"
     }

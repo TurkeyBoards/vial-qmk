@@ -1,1 +1,0 @@
-SRC += ../lib/led_config.c

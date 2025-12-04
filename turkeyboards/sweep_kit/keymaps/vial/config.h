@@ -1,27 +1,11 @@
-/*
-This is the c configuration file for the keymap
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 2 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
-*/
+/* SPDX-License-Identifier: GPL-2.0-or-later */
 
 #pragma once
 
-/* VIAL UID for TurkeyBoards Swoop Kit*/
-#define VIAL_KEYBOARD_UID {0x13, 0xC1, 0xB2, 0xC3, 0x96, 0xC3, 0xA2, 0x86}
+#define DYNAMIC_KEYMAP_LAYER_COUNT 12
+#define VIAL_TAP_DANCE_ENTRIES 10
+#define VIAL_KEYBOARD_UID {0x65, 0x22, 0x19, 0xC1, 0xCA, 0xB9, 0x6C, 0x67}
 
-/* VIAL secure unlock keystroke - currently both big keys (typ. SPACE/ENTER) */
 #define VIAL_UNLOCK_COMBO_ROWS {0, 0}
 #define VIAL_UNLOCK_COMBO_COLS {0, 1}
-#define OLED_DISPLAY_128X32
-#define SPLIT_USB_DETECT
+
